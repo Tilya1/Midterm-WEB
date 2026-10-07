@@ -11,7 +11,7 @@
 
 ## Description
 
-AniVerse is a multi-page responsive website for anime and manga fans. Users can see popular anime, read about manga, check the top rating, look at the gallery and join the fan club with a form. The website has a black and purple theme.
+AniVerse is a multi-page responsive website for anime and manga fans. Users can see popular anime, read about manga, check the top rating and look at the gallery. The website has a black and purple theme.
 
 ## Pages
 
@@ -20,7 +20,6 @@ AniVerse is a multi-page responsive website for anime and manga fans. Users can 
 3. **Manga** (`manga.html`) — manga list with authors and genres
 4. **Top** (`top.html`) — rating table of the best anime
 5. **Gallery** (`gallery.html`) — posters with caption on hover
-6. **Contact** (`contact.html`) — form to join the fan club and contacts
 
 ## Features implemented
 
@@ -28,7 +27,6 @@ AniVerse is a multi-page responsive website for anime and manga fans. Users can 
 - Semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
 - Headings, paragraphs, lists (`ul`, `ol`), links and images
 - **Table** — top anime rating (`top.html`)
-- **Form** — join the club (`contact.html`)
 - **External CSS** — `css/style.css`, class selectors
 - **Box model** — margin, padding, border
 - **Flexbox** — header, navigation, manga items
@@ -51,7 +49,7 @@ AniVerse is a multi-page responsive website for anime and manga fans. Users can 
 |---|---|
 | Zhumagaliyev Aktilek | Home page, Top page (table), header and footer, GitHub Pages |
 | Babassov Alibek | Anime page (Grid catalog), Manga page (lists) |
-| Meiirkhan Abilda | Gallery page (positioning, hover captions), Contact page (form), media queries |
+| Meiirkhan Abilda | Gallery page (positioning, hover captions), media queries |
 
 ## Project structure
 
@@ -61,7 +59,6 @@ anime.html
 manga.html
 top.html
 gallery.html
-contact.html
 css/style.css
 images/
 README.md
