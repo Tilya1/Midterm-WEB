@@ -194,23 +194,6 @@ main {
     border-radius: 10px;
 }
 
-.form-box label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.form-box input,
-.form-box select,
-.form-box textarea {
-    width: 100%;
-    padding: 10px;
-    background-color: #0f0d14;
-    color: #e5e5e5;
-    border: 1px solid #444;
-    border-radius: 5px;
-}
-
 .footer {
     padding: 30px 40px;
     background-color: #000;
