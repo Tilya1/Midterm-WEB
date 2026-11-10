@@ -20,6 +20,7 @@
             <a href="manga.html">Manga</a>
             <a href="top.html" class="active">Top</a>
             <a href="gallery.html">Gallery</a>
+            <a href="register.html">Register</a>
         </nav>
     </header>
 
@@ -120,6 +121,40 @@
                     </tbody>
                 </table>
             </div>
+
+            <h2 class="title mt-5">My Watchlist</h2>
+            <p class="mb-3">Add, edit and delete anime in your own list.</p>
+
+            <form id="watchForm" class="form-box mb-4">
+                <div class="row g-3">
+                    <div class="col-12 col-md-5">
+                        <input type="text" id="watchTitle" class="form-control" placeholder="Anime title">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <input type="text" id="watchGenre" class="form-control" placeholder="Genre">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <input type="number" id="watchEpisodes" class="form-control" placeholder="Episodes" min="1">
+                    </div>
+                </div>
+                <button type="submit" id="saveBtn" class="btn-anime mt-3">Add</button>
+                <p id="watchError" class="error-text mt-2"></p>
+            </form>
+
+            <div class="table-responsive">
+                <table class="top-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Anime</th>
+                            <th>Genre</th>
+                            <th>Episodes</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="watchBody"></tbody>
+                </table>
+            </div>
         </div>
     </main>
 
@@ -127,6 +162,9 @@
         <p>dzma54980@gmail.com</p>
         <p>Authors: Zh.Aktilek B.Alibek A.Meiirkhan</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
